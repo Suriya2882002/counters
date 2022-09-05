@@ -28,4 +28,4 @@ initial begin
  $display("\t\ttime,\tclk,\treset,\tenable,\tout"); 
  $monitor("%d,\t%b,\t%b,\t%b,\t%d",$time, clk,reset,enable,out); 
  end 
-endmodul
+endmodule
